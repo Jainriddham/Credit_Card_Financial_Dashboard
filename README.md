@@ -1,6 +1,7 @@
 # 💳 **Credit Card Financial Weekly Dashboard**
 ## 📌 **Project Objective**
 
-To design a Power BI dashboard that provides business stakeholders with a comprehensive weekly overview of key financial KPIs such as revenue, expenses, interest income, and customer behavior insights — enabling faster decision-making and operational improvements.
+To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends, 
+enabling stakeholders to monitor and analyze credit card operations effectively.
 
 
