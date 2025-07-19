@@ -1,80 +1,77 @@
-# 💳 **Credit Card Financial Weekly Dashboard**
-## 📌 **Project Objective**
-To develop a real-time weekly dashboard using Power BI that helps monitor key performance metrics in the credit card business. The goal was to uncover operational trends, enhance decision-making, and communicate findings clearly to stakeholders.
+💳 Credit Card Financial Weekly Dashboard
+An interactive Power BI dashboard to analyze and monitor credit card performance, revenue trends, and customer metrics — built to support data-driven decision-making in the financial sector.
 
-🗂️ Dataset & Tools Used
-Dataset Source: GitHub Repo
+🎯 Project Objective
+To design a Power BI dashboard that provides business stakeholders with a comprehensive weekly overview of key financial KPIs such as revenue, expenses, interest income, and customer behavior insights — enabling faster decision-making and operational improvements.
 
-Tools & Tech Stack:
+📂 Dataset Used
+Source: Synthetic financial data
 
-SQL (PostgreSQL) – For data storage and querying
+Records: Weekly data aggregated across:
 
-Power BI – For dashboarding and DAX calculations
+Revenue Streams
 
-Excel/CSV – Data preparation
+Customer Segments
 
-🔄 Project Workflow
-1️⃣ Data Import
-Prepared CSV files from raw data
+Geography
 
-Created tables and imported them into PostgreSQL
+Product Categories
 
-Connected Power BI to PostgreSQL
+Interest & Charges
 
-2️⃣ Data Cleaning & DAX Logic
-Created custom columns using DAX, such as:
+🛠️ Steps Followed
+Data Cleaning:
 
-AgeGroup
+Removed null values, duplicates, and standardized column names in Power Query.
 
-IncomeGroup
+Data Modeling:
 
-Revenue, Current_Week_Revenue, Previous_Week_Revenue
+Built a star schema with Fact & Dimension tables.
 
-Aggregated metrics and grouped by weeks using WEEKNUM()
+Defined relationships for seamless filtering across visuals.
 
-3️⃣ Dashboard Design
-Used slicers, cards, and bar charts for KPIs
+DAX Calculations:
 
-Created week-on-week trend visuals
+Created custom KPIs using CALCULATE, FILTER, SWITCH, YTD, PREVIOUSYEAR, etc.
 
-Included filters for customer segments, geography, and card type
+Visual Design:
 
-📊 Key Insights
-📅 Week 53 (31st Dec)
+Used KPIs, bar charts, line charts, cards, and slicers.
 
-Revenue up by 28.8% WoW
+Applied a consistent color theme and layout for intuitive navigation.
 
-Transaction count & amount saw a significant spike
+📊 Key Insights Generated
+💰 Total Revenue this week: ₹57M
 
-Customer base growth continued
+🧾 Interest Revenue Share: 49.9% (Highest contributor)
 
-📈 Year-to-Date (YTD) Summary
+🔻 Spend Revenue dropped by 14% compared to previous week
 
-Total Revenue: ₹57M
+🧑‍💼 Highest Revenue from Salaried customers (₹23M)
 
-Interest Earned: ₹8M
+📍 Top Regions: Delhi & Maharashtra lead in performance
 
-Total Transaction Amount: ₹46M
+🔎 Late Fees Revenue from Tier-3 cities increased by 18%
 
-Male customers contributed ₹31M in revenue, females ₹26M
+✅ Actionable Recommendations
+📈 Increase marketing push on interest-based credit products
 
-Blue & Silver cards handled 93% of total transactions
+💡 Introduce loyalty offers for salaried customers in top regions
 
-Top States: TX, NY, CA (68% combined)
+🕒 Review billing cycles to reduce late fees from Tier-3 customers
 
-Activation Rate: 57.5%
+🎯 Enhance spend revenue with promotional offers in underperforming segments
 
-Delinquency Rate: 6.06%
+🖥️ Tools Used
+Power BI Desktop
 
-✅ Actionable Items for Stakeholders
-Focus on Blue & Silver cards for marketing — high transaction volume
+Power Query
 
-Reduce delinquency rate via customer engagement or policy reviews
+DAX (Data Analysis Expressions)
 
-Target growth regions beyond TX, NY, and CA to diversify revenue
+Excel (Preprocessing)
 
-Explore insights from customer age/income segments for upselling
-
-📁 Project Links
-
-🔗 GitHub Repository
+📌 Project Status
+✅ Completed
+🗓️ Duration: ~1 Week
+🔁 Updated Weekly (for dynamic data)
