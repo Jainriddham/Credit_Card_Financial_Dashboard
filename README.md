@@ -75,8 +75,6 @@ Target growth regions beyond TX, NY, and CA to diversify revenue
 
 Explore insights from customer age/income segments for upselling
 
-🧾 Resume Line
-Developed an interactive credit card financial dashboard using Power BI and PostgreSQL that provided real-time business insights on revenue, delinquency, customer demographics, and transaction trends to support strategic decision-making.
-
 📁 Project Links
+
 🔗 GitHub Repository
