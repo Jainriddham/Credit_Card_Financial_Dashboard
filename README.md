@@ -1,5 +1,6 @@
-#Credit Card Financial Weekly Dashboard 📊
-By Riddham Jain
+# 💳 **Credit Card Financial Weekly Dashboard**
+## 📌 **Project Objective**
+### 📊 **Key Insights**
 
 📌 Project Objective
 To develop a real-time weekly dashboard using Power BI that helps monitor key performance metrics in the credit card business. The goal was to uncover operational trends, enhance decision-making, and communicate findings clearly to stakeholders.
